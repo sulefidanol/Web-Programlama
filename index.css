@@ -1,0 +1,64 @@
+/*h2[title="baslik1"]{
+    color: red;
+
+}
+
+a[target="_blank"]{
+    color: black;
+
+}
+input[type="text"]{
+    color: blue;
+}*/
+
+/*PSEUDO ELEMENT*/
+
+p::first-line{
+    font-weight: bold;
+    color: darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+
+
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+/*Psedudo Class*/
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+ul li:first-child{
+    background-color: red;
+}
+ul li:last-child{
+    background-color: blueviolet;
+}
+a:visited{
+    color: aqua;
+}
+a{
+    color: inherit;
+}
+li{
+    color: yellow;
+}
+
+a:hover{
+    color: aquamarine;
+    background-color: bisque;
+}
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    border: 10px;
+    margin-bottom: 10px;
+}
+
